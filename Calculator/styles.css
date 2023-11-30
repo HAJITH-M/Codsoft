@@ -1,0 +1,47 @@
+/* Add your custom styles here */
+body {
+    background-color: #f8f9fa;
+}
+
+.calculator {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgb(238, 251, 255);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.67)
+}
+
+/* Customize button colors */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #000000;
+    border-color: rgb(255, 0, 98);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.67)
+
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+        box-shadow: 0 0 10px rgba(174, 113, 147, 0.67)
+
+}
+
+.btn-secondary:hover {
+    background-color: #545b62;
+    border-color: #545b62;
+}
+.btn {
+    font-size: 18px;
+    margin: 5px;
+}
+
+#display {
+    text-align: right;
+}
+
